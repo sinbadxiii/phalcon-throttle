@@ -1,0 +1,29 @@
+{
+  "name": "sinbadxiii/phalcon-throttle",
+  "description": "Throttle For Phalcon",
+  "keywords": ["phalcon", "framework", "throttle", "ratelimit", "phalcon throttle", "phalcon rate limit"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Mukhin",
+      "email": "sinbadxiii@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5 || ^8.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Sinbadxiii\\PhalconThrottle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sinbadxiii\\PhalconThrottle\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
